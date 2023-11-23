@@ -1,0 +1,61 @@
+# Miscellaneous
+*.lock
+*.log
+*.pyc
+*.swp
+.DS_Store
+
+# Dart tooling & pub related
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+flutter_export_environment.sh
+GeneratedPluginRegistrant.*
+
+# Android related
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.*
+
+# iOS related
+**/ios/**/Flutter/ephemeral/
+**/ios/**/Flutter/Generated.xcconfig
+**/ios/**/Flutter/flutter_export_environment.sh
+**/ios/Flutter/GeneratedPluginRegistrant.*
+**/ios/.generated/
+**/ios/.symlinks/
+**/ios/Flutter/.last_build_id
+**/ios/Flutter/flutter_export_environment.sh
+**/ios/Pods/
+**/ios/Runner.xcworkspace/
+
+# macOS related
+**/macos/Flutter/ephemeral/
+**/macos/Flutter/GeneratedPluginRegistrant.*
+**/macos/Pods/
+**/macos/Runner.xcworkspace/
+**/macos/Flutter/GeneratedPluginRegistrant.*
+
+# Windows related
+**/windows/flutter/
+
+# Linux related
+**/linux/flutter/
+**/linux/.last_build_id
+
+# Web related
+web:build/
+
+# IntelliJ related
+.idea/
+*.iml
+
+# VS Code related
+.vscode/
+
